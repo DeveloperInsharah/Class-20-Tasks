@@ -1,0 +1,99 @@
+body{background-image: url(image/nature.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: cover;}
+.form{border: 1px solid rgb(255, 255, 255);
+width: 400px;
+height: 500px;
+margin: 60px auto;
+border-radius: 20px;
+padding-left: 40px;
+padding-right: 40px;
+box-sizing: border-box;
+background-color: rgba(186, 221, 177, 0);
+background-image: linear-gradient(to left top ,rgba(63, 120, 72, 0.535), #93C4E2,rgba(147, 189, 154, 0.896), rgba(255, 166, 0, 0.873));}
+.form > center > button{width: 120px;
+height: 50px;
+font-size: 34px;
+border-bottom-left-radius:20px ;
+border-bottom-right-radius: 20px;
+border-top-right-radius: -10px;
+border: 3px solid white;
+background-color: white;
+margin-bottom: 40px;}
+.label{display: block;
+font-size: large;
+font-family:Arial, Helvetica, sans-serif;
+color: white;
+margin-left: 20px;
+margin-bottom: 3px;
+margin-top: 10px;}
+.input{border-radius: 40px;
+    position: relative;
+height: 50px;
+width: 100%;
+padding: 5px 20px;
+box-sizing: border-box;
+border: 1px solid white;
+background-image: linear-gradient(to left top, #93C4E2, rgba(147, 189, 154, 0.896),rgba(70, 142, 83, 0.683), rgba(255, 166, 0, 0.873));}
+.input:focus{outline: none;
+border: 3px solid #ffb60b;
+box-shadow:1px 1px 5px 5px #dbd089;}
+i:hover{color: #ffb300;}
+.checkbox{margin-top: 20px;
+margin-right: 5px;}
+.r{font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 600;
+color: white;}
+span{float: right;
+margin-top: 20px;
+font-weight: 540;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: -5px;
+color: white;
+font-size: 15px;}
+.form > form >button{width: 100%;
+margin-top: 20px;
+height: 40px;
+border-radius: 50px;
+border: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+background-color: rgb(214, 212, 212);}
+.form > form > button:hover{cursor: pointer;}
+.form > form >button:active{outline: none;
+    border: 3px solid #ffb60b;
+    box-shadow:1px 1px 5px 5px #dbd089;
+background-color: #dbd089;
+color: #be8b13;
+font-weight: bold;}
+p{color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-weight: 600;
+margin-top: 30px;}
+i#a1{position: absolute;
+top: 31%;
+right: 40%;
+font-size: 24px;}
+i#a2{position: absolute;
+    top: 44%;
+    right: 40%;
+    font-size: 24px;}
+    .input.a{padding-right: 60px;}
+#back{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -40px;
+    background-color: #be8b13;
+    width: 200px;
+    color: #5595bd;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px solid #5595bd;
+}
+a{
+    text-decoration: none;
+}
